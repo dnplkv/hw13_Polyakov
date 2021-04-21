@@ -23,8 +23,6 @@ flake8-quotes==3.2.0
 flower==0.9.7
 humanize==3.4.1
 idna==2.10
-ipython==7.22.0
-ipython-genutils==0.2.0
 jedi==0.18.0
 kombu==4.6.11
 mccabe==0.6.1
