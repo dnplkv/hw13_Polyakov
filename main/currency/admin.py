@@ -4,11 +4,9 @@ from .models import Currency
 
 
 class CurrencyAdmin(admin.ModelAdmin):
-    list_display = ["currency", 'source', 'buy', 'sell', 'created', 'updated']
-    search_fields = ['currency', 'source']
-
     class Meta:
         model = Currency
+    properties = ["currency", 'source', 'buy', 'sell', 'created', 'updated']
 
 
 admin.site.register(Currency, CurrencyAdmin)
